@@ -3,7 +3,7 @@
 Static investor-committee style web deliverable for Hermes project `hermes-ai-investment-report-h2-2026`.
 
 ## Contents
-- `index.html` — polished static report with scorecard, company profiles, ETF implementation sleeve, kill criteria, and source appendix
+- `index.html` — polished static report with interactive market dashboard, ticker/range filters, charts, latest-news module, scorecard, company profiles, ETF implementation sleeve, kill criteria, and source appendix
 - `assets/generated/` — visual identity assets used in the deliverable
 - `generate_images.py` — attempted direct OpenAI `gpt-image-2` generation script; requires credentials
 - `create_assets.py` — local fallback SVG visual-system generator
