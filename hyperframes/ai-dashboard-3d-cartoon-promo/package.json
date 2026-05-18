@@ -1,0 +1,9 @@
+{
+  "private": true,
+  "scripts": {
+    "check": "npx --yes hyperframes@0.6.20 lint --strict && npx --yes hyperframes@0.6.20 validate && npx --yes hyperframes@0.6.20 inspect",
+    "render:draft": "npx --yes hyperframes@0.6.20 render --quality draft --fps 30 --output ../../assets/videos/ai-dashboard-3d-cartoon-promo.mp4",
+    "render": "npx --yes hyperframes@0.6.20 render --quality high --fps 30 --output ../../assets/videos/ai-dashboard-3d-cartoon-promo.mp4"
+  },
+  "devDependencies": {}
+}
